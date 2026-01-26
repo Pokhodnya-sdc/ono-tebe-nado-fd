@@ -59,10 +59,15 @@
 
 .header__right-list-items {
   list-style: none;
+  font-style: normal;
 }
 
 .header__right-list-anchors {
   text-decoration: underline;
+}
+
+.header__address {
+  text-decoration: none;
 }
 
 .cover {
@@ -70,6 +75,8 @@
   margin: 96px auto 0;
   background-image: url(../images/cover.png);
   color: #fff;
+  background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -306,8 +313,30 @@
   gap: 100px;
 }
 
+.footer_left_menu {
+  padding-top: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  justify-items: end;
+  margin-bottom: 82px;
+}
+
+.footer__left-list-items {
+  list-style: none;
+  font-style: normal;
+}
+
+.footer__left-list-anchors {
+  text-decoration: underline;
+}
+
 .footer__left_list {
   width: 264px;
+}
+
+.footer_address {
+  text-decoration: none;
 }
 
 .footer__menu {
