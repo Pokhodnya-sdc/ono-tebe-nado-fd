@@ -196,7 +196,6 @@
   justify-content: space-between;
   height: 100%;
   color: #fff;
-  z-index: 1;
 }
 
 .card_type_film {
@@ -218,14 +217,12 @@
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-style: solid;
-  z-index: 1;
 }
 
 .card__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  z-index: 1;
 }
 
 .lots__look-more-link {
